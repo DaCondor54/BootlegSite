@@ -1,10 +1,20 @@
+:root {
+  --background-color: black;
+  --primary-color : #1A1A1B;
+  --secondary-color : #272729;
+  --font-color : #D7DADc;
+  --secondary-font-color : #818384;
+}
+
 body {
   margin: 0;
+  padding: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--background-color);
 }
 
 code {
